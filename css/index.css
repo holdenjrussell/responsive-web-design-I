@@ -267,14 +267,14 @@ hr {
     }
     nav {
         height: auto;
+        position: relative;
 
     }
     nav ul {
         flex-flow: column wrap;
         justify-content: center;
         align-content: center;
-                margin: 0 auto;
-
+        margin: 0 auto;
         }
     nav li {
         padding: 10px 0 10px 0;
@@ -285,10 +285,10 @@ hr {
         width: 100%;
     }
 
-    .nav {
+    #navbar {
         display: none;
-        position: absolute;
     }
+
     .mobile a.icon {
         color: black;
 
@@ -299,6 +299,8 @@ hr {
         flex-wrap: nowrap;
         align-content: center;
         justify-content: space-between;
+        padding: 25px;
+
     }
 
 
